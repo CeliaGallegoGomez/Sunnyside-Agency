@@ -113,11 +113,13 @@ body {
 }
 
 .transform__container {
-  height: 309px;
+  padding-bottom: 64px;
+  padding-top: 64px;
 }
 
 .stand__container {
-  height: 309px;
+  padding-bottom: 64px;
+  padding-top: 64px;
 }
 
 .title__transform {
@@ -134,6 +136,7 @@ body {
   font-family: "Barlow";
   font-weight: 600;
   width: 327px;
+  letter-spacing: -0.13px;
 }
 
 .text__transform {
@@ -154,16 +157,31 @@ body {
   justify-content: flex-end;
   align-items: center;
   text-align: center;
+  padding-bottom: 59px;
+}
+
+.card__title {
+  font-size: 28px;
+  letter-spacing: -0.2px;
 }
 
 .card--cherry {
   background-image: url(../assets/images/mobile/image-graphic-design.jpg);
   background-size: 375px 600px;
+  color: #24554a;
 }
 
 .card--orange {
   background-image: url(../assets/images/mobile/image-photography.jpg);
   background-size: 375px 600px;
+  color: #19536c;
+}
+
+.text__card {
+  font-size: 16px;
+  height: 81px;
+  letter-spacing: -0.11px;
+  line-height: 27px;
 }
 @media screen and (min-width: 768px) {
   .header {
