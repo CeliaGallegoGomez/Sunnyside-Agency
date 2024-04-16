@@ -15,8 +15,6 @@ a {
 ul {
   list-style: none;
   padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 body {
@@ -36,21 +34,48 @@ body {
   display: flex;
   width: 327px;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding-top: 32px;
   padding-left: 24px;
-  padding-right: 24px;
   margin-bottom: 88px;
 }
 
+
 .menu-desktop {
   display: none;
+}
+
+.menu__mobile {
+  width: 329px;
+  height: 329px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FFFCF8;
+  font-family: 'Barlow' ;
+  font-weight: 600;
+  color: #808397;
+  text-align: center;
+  font-size: 20px;
+}
+
+.button__menu {
+  font-family: 'Fraunces';
+  font-weight: 700;
+  background-color: #FBD600;
+  color: #24303E;
+  border-radius: 28px;
+  font-size: 15px;
+  width: 140px;
+  height: 56px;
 }
 
 .title {
   font-family: "Fraunces";
 }
 
-.title {
+.title__header {
   font-size: 40px;
   color: white;
   text-align: center;
@@ -61,4 +86,38 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.text__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+}
+
+.transform__container {
+  height: 309px;
+}
+
+.title__transform {
+  font-size: 32px;
+  width: 327px;
+}
+
+.text{
+  font-family: 'Barlow';
+  font-weight: 600;
+  width: 327px;
+}
+
+.text__transform {
+  color: #808397;
+  margin-bottom: 32px;
+}
+
+.link {
+  font-family: 'Fraunces';
+  font-weight: 800;
 }
