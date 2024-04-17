@@ -112,6 +112,20 @@ body {
   width: 375px;
 }
 
+.egg__image {
+  background-image: url(../assets/images/mobile/image-transform.jpg);
+  width: 375px;
+  height: 312px;
+  background-size: 375px 312px;
+}
+
+.cup__image {
+  background-image: url(../assets/images/mobile/image-stand-out.jpg);
+  width: 375px;
+  height: 312px;
+  background-size: 375px 312px;
+}
+
 .transform__container {
   padding-bottom: 64px;
   padding-top: 64px;
@@ -189,18 +203,19 @@ body {
 }
 
 .span {
-  font-family: 'Barlow';
+  font-family: "Barlow";
   font-size: 14px;
   font-weight: 600;
-  color:#A7AAAD ;
+  color: #a7aaad;
 }
 
 .title__testimonials {
-  color: #A7AAAD;
+  color: #a7aaad;
   font-weight: 900;
   font-size: 16px;
   letter-spacing: 4px;
   margin-bottom: 64px;
+  padding-top: 64px;
 }
 
 .avatar {
@@ -210,6 +225,74 @@ body {
   margin-bottom: 32px;
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: 188px 188px;
+  grid-template-rows: 188px 188px;
+}
+
+.milk {
+  background-image: url(../assets/images/mobile/image-gallery-milkbottles.jpg);
+  width: 188px;
+  height: 188px;
+  background-size: 188px 188px;
+}
+
+.orange {
+  background-image: url(../assets/images/mobile/image-gallery-orange.jpg);
+  width: 188px;
+  height: 188px;
+  background-size: 188px 188px;
+}
+
+.cone {
+  background-image: url(../assets/images/mobile/image-gallery-cone.jpg);
+  width: 188px;
+  height: 188px;
+  background-size: 188px 188px;
+}
+
+.sugar {
+  background-image: url(../assets/images/mobile/image-gallery-sugar-cubes.jpg);
+  width: 188px;
+  height: 188px;
+  background-size: 188px 188px;
+}
+
+.footer {
+  background-color: #90d4c6;
+  color: #2c7566;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 64px;
+  padding-bottom: 80px;
+}
+
+.link--green {
+  color: #458d7e;
+  display: flex;
+  width: 297px;
+  justify-content: space-between;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.social-media {
+  width: 164px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 88px;
+}
+
+.logo__footer {
+  width: 170px;
+  height: 33px;
+  filter: brightness(0) saturate(100%) invert(35%) sepia(82%) saturate(306%)
+    hue-rotate(118deg) brightness(93%) contrast(88%);
+}
 
 @media screen and (min-width: 768px) {
   .header {
@@ -258,5 +341,94 @@ body {
   }
   .button__menu {
     background-color: white;
+  }
+
+  .transform {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1440px;
+    justify-content: space-between;
+  }
+
+  .stand {
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+  }
+
+  .egg__image {
+    background-image: url(../assets/images/desktop/image-transform.jpg);
+    width: 720px;
+    height: 600px;
+    background-size: 720px 600px;
+  }
+
+  .cup__image {
+    background-image: url(../assets/images/desktop/image-stand-out.jpg);
+    width: 720px;
+    height: 600px;
+    background-size: 720px 600px;
+  }
+
+  .text__container {
+    width: 720px;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .transform__container {
+    padding-left: 165px;
+    width: 445px;
+  }
+
+  .text-transform {
+    width: 445px;
+    height: 90px;
+  }
+
+  .title__transform {
+    text-align: left;
+  }
+
+  .cards {
+    display: flex;
+  }
+
+  .card--cherry {
+    background-image: url(../assets/images/desktop/image-graphic-design.jpg);
+  }
+
+  .gallery {
+    display: flex;
+  }
+
+  .milk {
+    background-image: url(../assets/images/desktop/image-gallery-milkbottles.jpg);
+    width: 360px;
+    height: 447px;
+    background-size: 360px 447px;
+  }
+
+  .orange {
+    background-image: url(../assets/images/desktop/image-gallery-orange.jpg);
+    width: 360px;
+    height: 447px;
+    background-size: 360px 447px;
+  }
+
+  .cone {
+    background-image: url(../assets/images/desktop/image-gallery-cone.jpg);
+    width: 360px;
+    height: 447px;
+    background-size: 360px 447px;
+  }
+
+  .sugar {
+    background-image: url(../assets/images/desktop/image-gallery-sugarcubes.jpg);
+    width: 360px;
+    height: 447px;
+    background-size: 360px 447px;
   }
 }
